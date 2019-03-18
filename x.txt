@@ -21,3 +21,8 @@ fun buscarCancion2(cancion: String){
 		retornar null;
 	}
 }
+
+// Registro todo bien
+// Login corregido
+// crearPlaylist todo bien
+// buscarCancion todo bien
