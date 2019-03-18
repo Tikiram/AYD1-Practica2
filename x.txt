@@ -1,0 +1,6 @@
+
+
+fun registroUsuario(email: String, password: String){
+    sistema.registrarUsuario(email, password);
+}
+
