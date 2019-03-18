@@ -1,4 +1,7 @@
 
 fun reproducir(cancionId: String){
-    
+
+	var lista = sistema.obtenerLista(cancionId);
+	lista.playRandom();
+
 }
