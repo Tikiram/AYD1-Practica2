@@ -2,7 +2,7 @@
 fun reproducir(cancionId: String, esRandom: Bool ){
 	
 
-	if(esRandom){
+	if(!esRandom){
     	var lista = sistema.obtenerLista(cancionId);
 		lista.play();
 	}else{
@@ -11,3 +11,5 @@ fun reproducir(cancionId: String, esRandom: Bool ){
 		lista.playRandom();
 	}
 }
+
+// reproduccion corregido (seleccion de modo en base a esRandom)
