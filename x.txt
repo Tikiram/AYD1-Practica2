@@ -4,11 +4,14 @@ fun registroUsuario(email: String, password: String){
     sistema.registrarUsuario(email, password);
 }
 
-
-fun crearPlayList(nombre: String, descripcion: String, etc){
-	sistema.crearPlayList(nombre, descripcion);
-}
-
 fun login (email: String, password: String){
 	sistema.verificar(email, password);
+}
+
+fun buscarCancion(cancion: String){
+	if(cancion != null){
+		retornar cancion;
+	}else{
+		retornar null;
+	}
 }
