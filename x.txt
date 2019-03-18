@@ -4,3 +4,6 @@ fun registroUsuario(email: String, password: String){
     sistema.registrarUsuario(email, password);
 }
 
+fun login (email: String, password: String){
+	sistema.verificar(email, password);
+}
