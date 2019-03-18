@@ -4,3 +4,6 @@ fun registroUsuario(email: String, password: String){
     sistema.registrarUsuario(email, password);
 }
 
+fun crearPlayList(nombre: String, descripcion: String, etc){
+	sistema.crearPlayList(nombre, descripcion);
+}
