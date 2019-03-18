@@ -7,3 +7,12 @@ fun registroUsuario(email: String, password: String){
 fun login (email: String, password: String){
 	sistema.verificar(email, password);
 }
+
+fun buscarCancion2(cancion: String){
+	
+	if(cancion!= null){
+		retornar cancion;
+	}else{
+		retornar null;
+	}
+}
