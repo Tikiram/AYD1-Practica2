@@ -1,7 +1,13 @@
 
-fun reproducir(cancionId: String){
+fun reproducir(cancionId: String, esRandom: Bool ){
+	
 
-	var lista = sistema.obtenerLista(cancionId);
-	lista.playRandom();
+	if(esRandom){
+    	var lista = sistema.obtenerLista(cancionId);
+		lista.play();
+	}else{
 
+		var lista = sistema.obtenerLista(cancionId);
+		lista.playRandom();
+	}
 }
