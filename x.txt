@@ -12,3 +12,12 @@ fun crearPlayList(nombre: String, descripcion: String, etc){
 fun login (email: String, password: String){
 	sistema.verificar(email, password);
 }
+
+fun buscarCancion2(cancion: String){
+	
+	if(cancion!= null){
+		retornar cancion;
+	}else{
+		retornar null;
+	}
+}
